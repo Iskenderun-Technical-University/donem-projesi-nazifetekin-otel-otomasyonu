@@ -1,0 +1,26 @@
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\otel otomasyonu.exe
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\otel otomasyonu.deps.json
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\otel otomasyonu.runtimeconfig.json
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\otel otomasyonu.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\otel otomasyonu.pdb
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.Form1.resources
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.Properties.Resources.resources
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.AssemblyInfo.cs
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\refint\otel otomasyonu.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.pdb
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.genruntimeconfig.cache
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\ref\otel otomasyonu.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmMusteriEkle.resources
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.csproj.CopyComplete
