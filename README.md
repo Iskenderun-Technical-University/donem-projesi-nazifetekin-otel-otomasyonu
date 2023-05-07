@@ -5,4 +5,4 @@ Kullanacağım Taablolar: müşterikayıt, oda kayıt ve rezrvasyon kayıt
 Amacım: otel çalışanı, müşteriyi bilgilerini güncelleyebilir ve silebilir, odaları  kayıt etme ve güncelleyebilir
 
 
-motivasyonum:  otellere gelen müşterilerin ve çalışanların kendilerini ayrıcalıklı hissetmesi sağlamak
+motivasyonum:  otellere gelen müşterilerin ve çalışanların kendilerini ayrıcalıklı hissetmesini sağlamak
