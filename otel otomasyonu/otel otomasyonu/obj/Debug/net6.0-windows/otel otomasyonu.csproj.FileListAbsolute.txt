@@ -24,3 +24,4 @@ C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomas
 C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmMusteriEkle.resources
 C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel otomasyonu.csproj.CopyComplete
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmMusteriListele.resources

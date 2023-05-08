@@ -100,6 +100,7 @@
             btnMusteriListele.Text = "Müsteri Listele";
             btnMusteriListele.TextAlign = ContentAlignment.BottomCenter;
             btnMusteriListele.UseVisualStyleBackColor = true;
+            btnMusteriListele.Click += btnMusteriListele_Click;
             // 
             // Form1
             // 
