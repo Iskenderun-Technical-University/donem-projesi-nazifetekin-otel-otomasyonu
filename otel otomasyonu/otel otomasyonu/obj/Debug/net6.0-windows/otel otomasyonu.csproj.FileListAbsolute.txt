@@ -27,3 +27,4 @@ C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomas
 C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmMusteriListele.resources
 C:\Users\Asus\Source\Repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmOdaKayit.resources
 C:\Users\Asus\Source\Repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmOdaListele.resources
+C:\Users\Asus\source\repos\donem-projesi-nazifetekin-otel-otomasyonu\otel otomasyonu\otel otomasyonu\obj\Debug\net6.0-windows\otel_otomasyonu.frmRezervasyonOlusturma.resources

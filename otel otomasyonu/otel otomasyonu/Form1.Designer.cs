@@ -46,9 +46,9 @@
             panel1.Controls.Add(btnOdaListele);
             panel1.Controls.Add(btnOdaKayit);
             panel1.Controls.Add(btnMusteriListele);
-            panel1.Location = new Point(255, 62);
+            panel1.Location = new Point(255, 50);
             panel1.Name = "panel1";
-            panel1.Size = new Size(284, 321);
+            panel1.Size = new Size(284, 333);
             panel1.TabIndex = 0;
             // 
             // btnRezervasyon
@@ -59,6 +59,7 @@
             btnRezervasyon.TabIndex = 5;
             btnRezervasyon.Text = "Rezervasyon";
             btnRezervasyon.UseVisualStyleBackColor = true;
+            btnRezervasyon.Click += btnRezervasyon_Click;
             // 
             // button5
             // 
@@ -73,9 +74,9 @@
             // 
             // btnMusteriEkle
             // 
-            btnMusteriEkle.Location = new Point(23, 20);
+            btnMusteriEkle.Location = new Point(23, 16);
             btnMusteriEkle.Name = "btnMusteriEkle";
-            btnMusteriEkle.Size = new Size(112, 78);
+            btnMusteriEkle.Size = new Size(112, 82);
             btnMusteriEkle.TabIndex = 0;
             btnMusteriEkle.Text = "Müsteri Ekle";
             btnMusteriEkle.TextAlign = ContentAlignment.BottomCenter;
@@ -84,9 +85,9 @@
             // 
             // btnOdaListele
             // 
-            btnOdaListele.Location = new Point(150, 120);
+            btnOdaListele.Location = new Point(150, 116);
             btnOdaListele.Name = "btnOdaListele";
-            btnOdaListele.Size = new Size(112, 78);
+            btnOdaListele.Size = new Size(112, 82);
             btnOdaListele.TabIndex = 3;
             btnOdaListele.Text = "Oda Listele";
             btnOdaListele.TextAlign = ContentAlignment.BottomCenter;
@@ -95,9 +96,9 @@
             // 
             // btnOdaKayit
             // 
-            btnOdaKayit.Location = new Point(23, 120);
+            btnOdaKayit.Location = new Point(23, 116);
             btnOdaKayit.Name = "btnOdaKayit";
-            btnOdaKayit.Size = new Size(112, 78);
+            btnOdaKayit.Size = new Size(112, 82);
             btnOdaKayit.TabIndex = 2;
             btnOdaKayit.Text = "Oda Kayit";
             btnOdaKayit.TextAlign = ContentAlignment.BottomCenter;
@@ -106,9 +107,9 @@
             // 
             // btnMusteriListele
             // 
-            btnMusteriListele.Location = new Point(150, 20);
+            btnMusteriListele.Location = new Point(150, 16);
             btnMusteriListele.Name = "btnMusteriListele";
-            btnMusteriListele.Size = new Size(112, 78);
+            btnMusteriListele.Size = new Size(112, 82);
             btnMusteriListele.TabIndex = 1;
             btnMusteriListele.Text = "Müsteri Listele";
             btnMusteriListele.TextAlign = ContentAlignment.BottomCenter;

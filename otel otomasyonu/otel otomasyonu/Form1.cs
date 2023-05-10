@@ -44,5 +44,12 @@ namespace otel_otomasyonu
             frmOdaListele listele = new frmOdaListele();
             listele.ShowDialog();
         }
+
+        private void btnRezervasyon_Click(object sender, EventArgs e)
+        {
+
+            frmRezervasyonOlusturma olusturma = new frmRezervasyonOlusturma();
+            olusturma.ShowDialog();
+        }
     }
 }

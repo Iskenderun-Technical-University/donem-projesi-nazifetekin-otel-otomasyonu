@@ -31,5 +31,34 @@ namespace otel_otomasyonu
             baglanti.Close();
             return tablo;
         }
+
+        internal void Tc_Ara(TextBox textBoxTcAra, TextBox textBoxTc, TextBox textBoxAd, TextBox textBoxSoyad, TextBox textBoxTelefon, TextBox textBoxEmail, TextBox textBoxAdres, string sorgu2)
+        {
+
+           
+            throw new NotImplementedException();
+        }
+        public void CombodanGetir(ComboBox Odalar, ComboBox Kat, TextBox OdaNo, TextBox BanyoSayisi, TextBox YatakSayisi, string sorgu)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlDataReader read = komut.ExecuteReader();
+            while (read.Read())
+            {
+                Kat.Text = read["kat"].ToString();
+                OdaNo.Text = read["OdaNo"].ToString();
+                BanyoSayisi.Text = read["BanyoSayisi"].ToString();
+                YatakSayisi.Text = read["YatakSayisi"].ToString();
+            }
+            baglanti.Close();
+        }
+        public void Ucret_Hesapla(TextBox ucret, string sorgu)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlDataReader read = komut.ExecuteReader();
+           
+            baglanti.Close();
+        }
     }
 }
