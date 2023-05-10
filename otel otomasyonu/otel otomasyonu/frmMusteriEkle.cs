@@ -46,5 +46,10 @@ namespace otel_otomasyonu
             otel_otomasyonu.ekle_sil_güncelle(komut2, cumle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
         }
+
+        private void frmMusteriEkle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

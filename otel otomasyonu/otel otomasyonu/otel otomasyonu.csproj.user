@@ -4,10 +4,16 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmOdaListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmMusteriEkle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmMusteriListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOdaKayit.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

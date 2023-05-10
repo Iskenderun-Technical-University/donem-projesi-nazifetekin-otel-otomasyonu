@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnRezervasyon = new Button();
             button5 = new Button();
             btnMusteriEkle = new Button();
             btnOdaListele = new Button();
@@ -39,19 +40,29 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnRezervasyon);
             panel1.Controls.Add(button5);
             panel1.Controls.Add(btnMusteriEkle);
             panel1.Controls.Add(btnOdaListele);
             panel1.Controls.Add(btnOdaKayit);
             panel1.Controls.Add(btnMusteriListele);
-            panel1.Location = new Point(74, 12);
+            panel1.Location = new Point(255, 62);
             panel1.Name = "panel1";
-            panel1.Size = new Size(658, 117);
+            panel1.Size = new Size(284, 321);
             panel1.TabIndex = 0;
+            // 
+            // btnRezervasyon
+            // 
+            btnRezervasyon.Location = new Point(23, 217);
+            btnRezervasyon.Name = "btnRezervasyon";
+            btnRezervasyon.Size = new Size(112, 78);
+            btnRezervasyon.TabIndex = 5;
+            btnRezervasyon.Text = "Rezervasyon";
+            btnRezervasyon.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Location = new Point(529, 20);
+            button5.Location = new Point(150, 217);
             button5.Name = "button5";
             button5.Size = new Size(112, 78);
             button5.TabIndex = 4;
@@ -73,23 +84,25 @@
             // 
             // btnOdaListele
             // 
-            btnOdaListele.Location = new Point(411, 20);
+            btnOdaListele.Location = new Point(150, 120);
             btnOdaListele.Name = "btnOdaListele";
             btnOdaListele.Size = new Size(112, 78);
             btnOdaListele.TabIndex = 3;
             btnOdaListele.Text = "Oda Listele";
             btnOdaListele.TextAlign = ContentAlignment.BottomCenter;
             btnOdaListele.UseVisualStyleBackColor = true;
+            btnOdaListele.Click += btnOdaListele_Click;
             // 
             // btnOdaKayit
             // 
-            btnOdaKayit.Location = new Point(278, 20);
+            btnOdaKayit.Location = new Point(23, 120);
             btnOdaKayit.Name = "btnOdaKayit";
             btnOdaKayit.Size = new Size(112, 78);
             btnOdaKayit.TabIndex = 2;
             btnOdaKayit.Text = "Oda Kayit";
             btnOdaKayit.TextAlign = ContentAlignment.BottomCenter;
             btnOdaKayit.UseVisualStyleBackColor = true;
+            btnOdaKayit.Click += btnOdaKayit_Click;
             // 
             // btnMusteriListele
             // 
@@ -123,5 +136,6 @@
         private Button btnOdaListele;
         private Button btnOdaKayit;
         private Button btnMusteriListele;
+        private Button btnRezervasyon;
     }
 }

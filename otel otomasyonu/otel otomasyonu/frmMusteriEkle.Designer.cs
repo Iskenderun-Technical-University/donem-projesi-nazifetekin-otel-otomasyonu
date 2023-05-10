@@ -182,6 +182,7 @@
             Controls.Add(textBoxAd);
             Name = "frmMusteriEkle";
             Text = "frmMusteriEkle";
+            Load += frmMusteriEkle_Load;
             ResumeLayout(false);
             PerformLayout();
         }

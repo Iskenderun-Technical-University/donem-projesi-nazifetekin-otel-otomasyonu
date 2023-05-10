@@ -32,5 +32,17 @@ namespace otel_otomasyonu
             frmMusteriListele listele = new frmMusteriListele();
             listele.ShowDialog();
         }
+
+        private void btnOdaKayit_Click(object sender, EventArgs e)
+        {
+            frmOdaKayit Kayit = new frmOdaKayit();
+            Kayit.ShowDialog();
+        }
+
+        private void btnOdaListele_Click(object sender, EventArgs e)
+        {
+            frmOdaListele listele = new frmOdaListele();
+            listele.ShowDialog();
+        }
     }
 }
