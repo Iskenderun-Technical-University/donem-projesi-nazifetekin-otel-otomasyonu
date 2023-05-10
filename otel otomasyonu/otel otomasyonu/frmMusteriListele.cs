@@ -35,7 +35,7 @@ namespace otel_otomasyonu
             dataGridView1.Columns[4].HeaderText = "ADRES";
             dataGridView1.Columns[5].HeaderText = "TELEFON";
             dataGridView1.Columns[6].HeaderText = "EMAİL";
-           
+
         }
 
         private void btnİptal_Click(object sender, EventArgs e)

@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRezervasyonOlusturma));
             groupBox1 = new GroupBox();
             label14 = new Label();
             textBoxTcAra = new TextBox();
@@ -69,6 +71,7 @@
             label11 = new Label();
             label12 = new Label();
             dataGridView1 = new DataGridView();
+            ımageList1 = new ImageList(components);
             groupBox1.SuspendLayout();
             groupBoxOdaBilgi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -276,10 +279,11 @@
             btnHesapla.Font = new Font("Nirmala UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnHesapla.ImageAlign = ContentAlignment.MiddleLeft;
             btnHesapla.ImageIndex = 4;
+            btnHesapla.ImageList = ımageList1;
             btnHesapla.Location = new Point(403, 248);
             btnHesapla.Margin = new Padding(3, 4, 3, 4);
             btnHesapla.Name = "btnHesapla";
-            btnHesapla.Size = new Size(91, 40);
+            btnHesapla.Size = new Size(110, 56);
             btnHesapla.TabIndex = 37;
             btnHesapla.Text = "Hesapla";
             btnHesapla.TextAlign = ContentAlignment.MiddleRight;
@@ -290,11 +294,12 @@
             // 
             btnTemizle.Font = new Font("Nirmala UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnTemizle.ImageAlign = ContentAlignment.MiddleLeft;
-            btnTemizle.ImageIndex = 2;
+            btnTemizle.ImageIndex = 1;
+            btnTemizle.ImageList = ımageList1;
             btnTemizle.Location = new Point(282, 248);
             btnTemizle.Margin = new Padding(3, 4, 3, 4);
             btnTemizle.Name = "btnTemizle";
-            btnTemizle.Size = new Size(89, 40);
+            btnTemizle.Size = new Size(104, 56);
             btnTemizle.TabIndex = 36;
             btnTemizle.Text = "Temizle";
             btnTemizle.TextAlign = ContentAlignment.MiddleRight;
@@ -305,11 +310,12 @@
             // 
             btnGuncelle.Font = new Font("Nirmala UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnGuncelle.ImageAlign = ContentAlignment.MiddleLeft;
-            btnGuncelle.ImageIndex = 1;
-            btnGuncelle.Location = new Point(164, 248);
+            btnGuncelle.ImageIndex = 3;
+            btnGuncelle.ImageList = ımageList1;
+            btnGuncelle.Location = new Point(151, 248);
             btnGuncelle.Margin = new Padding(3, 4, 3, 4);
             btnGuncelle.Name = "btnGuncelle";
-            btnGuncelle.Size = new Size(85, 40);
+            btnGuncelle.Size = new Size(110, 56);
             btnGuncelle.TabIndex = 35;
             btnGuncelle.Text = "Güncelle";
             btnGuncelle.TextAlign = ContentAlignment.MiddleRight;
@@ -322,10 +328,11 @@
             btnEkle.ForeColor = SystemColors.ControlText;
             btnEkle.ImageAlign = ContentAlignment.MiddleLeft;
             btnEkle.ImageIndex = 0;
-            btnEkle.Location = new Point(47, 248);
+            btnEkle.ImageList = ımageList1;
+            btnEkle.Location = new Point(16, 248);
             btnEkle.Margin = new Padding(3, 4, 3, 4);
             btnEkle.Name = "btnEkle";
-            btnEkle.Size = new Size(87, 40);
+            btnEkle.Size = new Size(118, 56);
             btnEkle.TabIndex = 34;
             btnEkle.Text = "Odayı Ver";
             btnEkle.TextAlign = ContentAlignment.MiddleRight;
@@ -508,6 +515,18 @@
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
+            ımageList1.Images.SetKeyName(1, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(2, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
+            ımageList1.Images.SetKeyName(3, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(4, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(5, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
+            // 
             // frmRezervasyonOlusturma
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -571,5 +590,6 @@
         private TextBox textBoxTcAra;
         private TextBox textBoxGun;
         private Label label15;
+        private ImageList ımageList1;
     }
 }

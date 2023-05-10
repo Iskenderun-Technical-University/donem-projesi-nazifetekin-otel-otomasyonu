@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOdaKayit));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -45,6 +47,7 @@
             btnİptal = new Button();
             btnFotografEkle = new Button();
             openFileDialog1 = new OpenFileDialog();
+            ımageList1 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -159,37 +162,60 @@
             // 
             // btnKayit
             // 
-            btnKayit.Location = new Point(221, 312);
+            btnKayit.ImageIndex = 0;
+            btnKayit.ImageList = ımageList1;
+            btnKayit.Location = new Point(215, 312);
             btnKayit.Name = "btnKayit";
-            btnKayit.Size = new Size(105, 53);
+            btnKayit.Size = new Size(111, 74);
             btnKayit.TabIndex = 13;
             btnKayit.Text = "Kayıt";
+            btnKayit.TextAlign = ContentAlignment.BottomCenter;
             btnKayit.UseVisualStyleBackColor = true;
             btnKayit.Click += btnKayit_Click;
             // 
             // btnİptal
             // 
+            btnİptal.ImageIndex = 6;
+            btnİptal.ImageList = ımageList1;
             btnİptal.Location = new Point(346, 312);
             btnİptal.Name = "btnİptal";
-            btnİptal.Size = new Size(105, 53);
+            btnİptal.Size = new Size(117, 74);
             btnİptal.TabIndex = 14;
             btnİptal.Text = "İptal";
+            btnİptal.TextAlign = ContentAlignment.BottomCenter;
             btnİptal.UseVisualStyleBackColor = true;
             btnİptal.Click += btnİptal_Click;
             // 
             // btnFotografEkle
             // 
+            btnFotografEkle.ImageAlign = ContentAlignment.TopCenter;
+            btnFotografEkle.ImageIndex = 5;
+            btnFotografEkle.ImageList = ımageList1;
             btnFotografEkle.Location = new Point(469, 312);
             btnFotografEkle.Name = "btnFotografEkle";
-            btnFotografEkle.Size = new Size(105, 53);
+            btnFotografEkle.Size = new Size(119, 74);
             btnFotografEkle.TabIndex = 15;
             btnFotografEkle.Text = "Fotoğraf Ekle";
+            btnFotografEkle.TextAlign = ContentAlignment.BottomCenter;
             btnFotografEkle.UseVisualStyleBackColor = true;
             btnFotografEkle.Click += btnFotografEkle_Click;
             // 
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
+            ımageList1.Images.SetKeyName(1, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(2, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
+            ımageList1.Images.SetKeyName(3, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(4, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(5, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
+            ımageList1.Images.SetKeyName(6, "png-transparent-incorrect-delete-remove-cancel-red-sign-symbol-cross-wrong.png");
             // 
             // frmOdaKayit
             // 
@@ -240,5 +266,6 @@
         private Button btnİptal;
         private Button btnFotografEkle;
         private OpenFileDialog openFileDialog1;
+        private ImageList ımageList1;
     }
 }

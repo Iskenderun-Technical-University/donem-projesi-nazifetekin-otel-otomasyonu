@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMusteriEkle));
             textBoxAd = new TextBox();
             textBoxSoyad = new TextBox();
             textBoxTc = new TextBox();
@@ -42,6 +44,7 @@
             textBoxAdres = new TextBox();
             btnEkle = new Button();
             btnİptal = new Button();
+            ımageList1 = new ImageList(components);
             SuspendLayout();
             // 
             // textBoxAd
@@ -142,23 +145,46 @@
             // 
             // btnEkle
             // 
-            btnEkle.Location = new Point(106, 367);
+            btnEkle.ImageAlign = ContentAlignment.MiddleLeft;
+            btnEkle.ImageIndex = 8;
+            btnEkle.ImageList = ımageList1;
+            btnEkle.Location = new Point(93, 367);
             btnEkle.Name = "btnEkle";
-            btnEkle.Size = new Size(94, 50);
+            btnEkle.Size = new Size(107, 50);
             btnEkle.TabIndex = 12;
             btnEkle.Text = "Kayit";
+            btnEkle.TextAlign = ContentAlignment.MiddleRight;
             btnEkle.UseVisualStyleBackColor = true;
             btnEkle.Click += btnEkle_Click;
             // 
             // btnİptal
             // 
+            btnİptal.ImageAlign = ContentAlignment.MiddleLeft;
+            btnİptal.ImageIndex = 7;
+            btnİptal.ImageList = ımageList1;
             btnİptal.Location = new Point(222, 367);
             btnİptal.Name = "btnİptal";
             btnİptal.Size = new Size(94, 50);
             btnİptal.TabIndex = 13;
             btnİptal.Text = "İptal";
+            btnİptal.TextAlign = ContentAlignment.MiddleRight;
             btnİptal.UseVisualStyleBackColor = true;
             btnİptal.Click += btnİptal_Click;
+            // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(1, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
+            ımageList1.Images.SetKeyName(2, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(3, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(4, "18-titanic-business-kartal-superior-room_standard.jpg");
+            ımageList1.Images.SetKeyName(5, "çiftkişi.jpg");
+            ımageList1.Images.SetKeyName(6, "kaya-palazzo-golf.jpeg");
+            ımageList1.Images.SetKeyName(7, "png-transparent-incorrect-delete-remove-cancel-red-sign-symbol-cross-wrong.png");
+            ımageList1.Images.SetKeyName(8, "New_user_icon-01.svg.png");
             // 
             // frmMusteriEkle
             // 
@@ -203,5 +229,6 @@
         private TextBox textBoxAdres;
         private Button btnEkle;
         private Button btnİptal;
+        private ImageList ımageList1;
     }
 }

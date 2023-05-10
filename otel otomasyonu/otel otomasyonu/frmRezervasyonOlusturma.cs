@@ -143,7 +143,7 @@ namespace otel_otomasyonu
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -156,7 +156,7 @@ namespace otel_otomasyonu
             int ucretfarki;
             //Ücret farkı hesapla
             ucretfarki = _gunfarki * ucret;
-   
+
         }
     }
 }

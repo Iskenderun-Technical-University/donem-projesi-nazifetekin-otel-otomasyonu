@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOdaListele));
             btnFotografEkle = new Button();
             btnİptal = new Button();
             btnKayit = new Button();
@@ -47,37 +49,50 @@
             dataGridView1 = new DataGridView();
             btnSil = new Button();
             openFileDialog1 = new OpenFileDialog();
+            ımageList1 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // btnFotografEkle
             // 
+            btnFotografEkle.ImageAlign = ContentAlignment.MiddleLeft;
+            btnFotografEkle.ImageIndex = 0;
+            btnFotografEkle.ImageList = ımageList1;
             btnFotografEkle.Location = new Point(520, 241);
             btnFotografEkle.Name = "btnFotografEkle";
-            btnFotografEkle.Size = new Size(105, 52);
+            btnFotografEkle.Size = new Size(145, 52);
             btnFotografEkle.TabIndex = 31;
             btnFotografEkle.Text = "Fotoğraf Ekle";
+            btnFotografEkle.TextAlign = ContentAlignment.MiddleRight;
             btnFotografEkle.UseVisualStyleBackColor = true;
             btnFotografEkle.Click += btnFotografEkle_Click;
             // 
             // btnİptal
             // 
+            btnİptal.ImageAlign = ContentAlignment.MiddleLeft;
+            btnİptal.ImageIndex = 2;
+            btnİptal.ImageList = ımageList1;
             btnİptal.Location = new Point(397, 241);
             btnİptal.Name = "btnİptal";
             btnİptal.Size = new Size(105, 52);
             btnİptal.TabIndex = 30;
             btnİptal.Text = "İptal";
+            btnİptal.TextAlign = ContentAlignment.MiddleRight;
             btnİptal.UseVisualStyleBackColor = true;
             btnİptal.Click += btnİptal_Click;
             // 
             // btnKayit
             // 
+            btnKayit.ImageAlign = ContentAlignment.MiddleLeft;
+            btnKayit.ImageIndex = 10;
+            btnKayit.ImageList = ımageList1;
             btnKayit.Location = new Point(272, 241);
             btnKayit.Name = "btnKayit";
             btnKayit.Size = new Size(105, 52);
             btnKayit.TabIndex = 29;
             btnKayit.Text = "Güncelle";
+            btnKayit.TextAlign = ContentAlignment.MiddleRight;
             btnKayit.UseVisualStyleBackColor = true;
             btnKayit.Click += btnKayit_Click;
             // 
@@ -204,17 +219,39 @@
             // 
             // btnSil
             // 
+            btnSil.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSil.ImageIndex = 5;
+            btnSil.ImageList = ımageList1;
             btnSil.Location = new Point(148, 241);
             btnSil.Name = "btnSil";
             btnSil.Size = new Size(105, 52);
             btnSil.TabIndex = 33;
             btnSil.Text = "Sil";
+            btnSil.TextAlign = ContentAlignment.MiddleRight;
             btnSil.UseVisualStyleBackColor = true;
             btnSil.Click += btnSil_Click;
             // 
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "png-transparent-new-folder-add-create-files-and-folders-icon-thumbnail.png");
+            ımageList1.Images.SetKeyName(1, "New_user_icon-01.svg.png");
+            ımageList1.Images.SetKeyName(2, "png-transparent-incorrect-delete-remove-cancel-red-sign-symbol-cross-wrong.png");
+            ımageList1.Images.SetKeyName(3, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(4, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
+            ımageList1.Images.SetKeyName(5, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(6, "çiftkişi.jpg");
+            ımageList1.Images.SetKeyName(7, "kaya-palazzo-golf.jpeg");
+            ımageList1.Images.SetKeyName(8, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
+            ımageList1.Images.SetKeyName(9, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
+            ımageList1.Images.SetKeyName(10, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(11, "18-titanic-business-kartal-superior-room_standard.jpg");
             // 
             // frmOdaListele
             // 
@@ -270,5 +307,6 @@
         private DataGridView dataGridView1;
         private Button btnSil;
         private OpenFileDialog openFileDialog1;
+        private ImageList ımageList1;
     }
 }

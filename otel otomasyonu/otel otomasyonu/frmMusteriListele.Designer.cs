@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMusteriListele));
             dataGridView1 = new DataGridView();
             btnSil = new Button();
             btnGuncelle = new Button();
@@ -46,6 +48,7 @@
             btnİptal = new Button();
             label7 = new Label();
             textBox1 = new TextBox();
+            ımageList1 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -63,21 +66,29 @@
             // 
             // btnSil
             // 
+            btnSil.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSil.ImageIndex = 5;
+            btnSil.ImageList = ımageList1;
             btnSil.Location = new Point(350, 204);
             btnSil.Name = "btnSil";
             btnSil.Size = new Size(94, 50);
             btnSil.TabIndex = 27;
             btnSil.Text = "Sil";
+            btnSil.TextAlign = ContentAlignment.MiddleRight;
             btnSil.UseVisualStyleBackColor = true;
             btnSil.Click += btnSil_Click;
             // 
             // btnGuncelle
             // 
-            btnGuncelle.Location = new Point(232, 204);
+            btnGuncelle.ImageAlign = ContentAlignment.MiddleLeft;
+            btnGuncelle.ImageIndex = 6;
+            btnGuncelle.ImageList = ımageList1;
+            btnGuncelle.Location = new Point(212, 204);
             btnGuncelle.Name = "btnGuncelle";
-            btnGuncelle.Size = new Size(94, 50);
+            btnGuncelle.Size = new Size(114, 50);
             btnGuncelle.TabIndex = 26;
             btnGuncelle.Text = "Güncelle";
+            btnGuncelle.TextAlign = ContentAlignment.MiddleRight;
             btnGuncelle.UseVisualStyleBackColor = true;
             btnGuncelle.Click += btnGuncelle_Click;
             // 
@@ -179,11 +190,15 @@
             // 
             // btnİptal
             // 
+            btnİptal.ImageAlign = ContentAlignment.MiddleLeft;
+            btnİptal.ImageIndex = 0;
+            btnİptal.ImageList = ımageList1;
             btnİptal.Location = new Point(486, 204);
             btnİptal.Name = "btnİptal";
             btnİptal.Size = new Size(94, 50);
             btnİptal.TabIndex = 28;
             btnİptal.Text = "İptal";
+            btnİptal.TextAlign = ContentAlignment.MiddleRight;
             btnİptal.UseVisualStyleBackColor = true;
             btnİptal.Click += btnİptal_Click;
             // 
@@ -203,6 +218,22 @@
             textBox1.Size = new Size(144, 27);
             textBox1.TabIndex = 29;
             textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "png-transparent-incorrect-delete-remove-cancel-red-sign-symbol-cross-wrong.png");
+            ımageList1.Images.SetKeyName(1, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
+            ımageList1.Images.SetKeyName(2, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
+            ımageList1.Images.SetKeyName(3, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(4, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
+            ımageList1.Images.SetKeyName(5, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(6, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(7, "18-titanic-business-kartal-superior-room_standard.jpg");
+            ımageList1.Images.SetKeyName(8, "çiftkişi.jpg");
+            ımageList1.Images.SetKeyName(9, "kaya-palazzo-golf.jpeg");
             // 
             // frmMusteriListele
             // 
@@ -256,5 +287,6 @@
         private Button btnİptal;
         private Label label7;
         private TextBox textBox1;
+        private ImageList ımageList1;
     }
 }
