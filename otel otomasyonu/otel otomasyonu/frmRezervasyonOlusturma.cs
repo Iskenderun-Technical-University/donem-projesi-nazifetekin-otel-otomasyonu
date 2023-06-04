@@ -85,7 +85,7 @@ namespace otel_otomasyonu
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            string sorgu2 = "insert into RezervasyonO(Ad, Soyad, Tc, Email, Telefon,  Adres, Odalar, Kat, OdaNo, BanyoSayisi, YatakSayisi, Ucret, Tutar,GirisTarihi, CikisTarihi) values(@Ad, @Soyad, @Tc, @Email, @Telefon,  @Adres, @Odalar, @Kat, @OdaNo, @BanyoSayisi, @YatakSayisi, @Ucret, @Tutar, @GirisTarihi, @CikisTarihi)";
+            string sorgu2 = "insert into RezervasyonO(Ad, Soyad, Tc, Email, Telefon,  Adres, Odalar, Kat, OdaNo, BanyoSayisi, YatakSayisi, Ucret, Tutar,GirisTatihi, CikisTarihi) values(@Ad, @Soyad, @Tc, @Email, @Telefon,  @Adres, @Odalar, @Kat, @OdaNo, @BanyoSayisi, @YatakSayisi, @Ucret, @Tutar, @GirisTatihi, @CikisTarihi)";
             SqlCommand komut2 = new SqlCommand();
 
             komut2.Parameters.AddWithValue("@Ad", textBoxAd.Text);
@@ -101,7 +101,7 @@ namespace otel_otomasyonu
             komut2.Parameters.AddWithValue("@YatakSayisi", textBoxYatakSayisi.Text);
             komut2.Parameters.AddWithValue("@Ucret", int.Parse(textBoxUcret.Text));
             komut2.Parameters.AddWithValue("@Tutar", int.Parse(textBoxTutar.Text));
-            komut2.Parameters.AddWithValue("GirisTarihi", dateGirisTarihi.Text);
+            komut2.Parameters.AddWithValue("@GirisTatihi", dateGirisTarihi.Text);
             komut2.Parameters.AddWithValue("@CikisTarihi", dateCikisTarihi.Text);
             otel.ekle_sil_güncelle(komut2, sorgu2);
             comboBoxOdalar.Items.Clear();
@@ -113,7 +113,7 @@ namespace otel_otomasyonu
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            string sorgu2 = "update RezervasyonO set Ad=@Ad, Soyad=@Soyad, Tc=@Tc, Email=@Email, Telefon=@Telefon,  Adres=@Adres, Kat=@Kat, OdaNo=@OdaNo, BanyoSayisi=@BanyoSayisi, YatakSayisi=@YatakSayisi, Ucret=@Ucret, Tutar=@Tutar,GirisTarihi=@GirisTarihi, CikisTarihi=@CikisTarihi where Odalar=@Odalar";
+            string sorgu2 = "update RezervasyonO set Ad=@Ad, Soyad=@Soyad, Tc=@Tc, Email=@Email, Telefon=@Telefon,  Adres=@Adres, Kat=@Kat, OdaNo=@OdaNo, BanyoSayisi=@BanyoSayisi, YatakSayisi=@YatakSayisi, Ucret=@Ucret, Tutar=@Tutar,GirisTatihi=@GirisTatihi, CikisTarihi=@CikisTarihi where Odalar=@Odalar";
             SqlCommand komut2 = new SqlCommand();
 
             komut2.Parameters.AddWithValue("@Ad", textBoxAd.Text);
@@ -129,7 +129,7 @@ namespace otel_otomasyonu
             komut2.Parameters.AddWithValue("@YatakSayisi", textBoxYatakSayisi.Text);
             komut2.Parameters.AddWithValue("@Ucret", int.Parse(textBoxUcret.Text));
             komut2.Parameters.AddWithValue("@Tutar", int.Parse(textBoxTutar.Text));
-            komut2.Parameters.AddWithValue("GirisTarihi", dateGirisTarihi.Text);
+            komut2.Parameters.AddWithValue("@GirisTatihi", dateGirisTarihi.Text);
             komut2.Parameters.AddWithValue("@CikisTarihi", dateCikisTarihi.Text);
             otel.ekle_sil_güncelle(komut2, sorgu2);
             comboBoxOdalar.Items.Clear();
@@ -148,14 +148,24 @@ namespace otel_otomasyonu
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            DateTime giris = DateTime.Parse(DateTime.Now.ToShortDateString());
-            DateTime cikis = DateTime.Parse(satir.Cells["CikisTarihi"].Value.ToString());
-            int ucret = int.Parse(satir.Cells["Ucret"].Value.ToString());
-            TimeSpan gunfarki = giris - cikis;
-            int _gunfarki = gunfarki.Days;
-            int ucretfarki;
-            //Ücret farkı hesapla
-            ucretfarki = _gunfarki * ucret;
+            DataGridViewRow satır = dataGridView1.CurrentRow;
+            textBoxTc.Text = satır.Cells[0].Value.ToString();
+            textBoxAd.Text = satır.Cells[1].Value.ToString();
+            textBoxSoyad.Text = satır.Cells[2].Value.ToString();
+            textBoxTelefon.Text = satır.Cells[3].Value.ToString();
+            textBoxEmail.Text = satır.Cells[4].Value.ToString();
+            comboBoxOdalar.Text = satır.Cells[5].Value.ToString();
+            textBoxAdres.Text = satır.Cells[6].Value.ToString();
+            comboBoxKat.Text = satır.Cells[7].Value.ToString();
+            textBoxOdaNo.Text = satır.Cells[8].Value.ToString();
+            textBoxBanyoSayisi.Text = satır.Cells[9].Value.ToString();
+            textBoxYatakSayisi.Text = satır.Cells[10].Value.ToString();
+            textBoxGun.Text = satır.Cells[11].Value.ToString();
+            textBoxUcret.Text = satır.Cells[12].Value.ToString();
+            textBoxTutar.Text = satır.Cells[13].Value.ToString();
+            dateCikisTarihi.Text = satır.Cells[14].ToString();
+            dateGirisTarihi.Text = satır.Cells[15].Value.ToString();
+
 
         }
     }

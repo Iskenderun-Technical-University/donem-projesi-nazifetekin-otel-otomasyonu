@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj": {}
+    "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj": {
+    "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
         "projectName": "otel otomasyonu",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
+        "projectPath": "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -31,10 +31,10 @@ namespace otel_otomasyonu
             dataGridView1.DataSource = otel_otomasyonu.listele(adtr2, cümle);
             dataGridView1.Columns[0].HeaderText = "AD";
             dataGridView1.Columns[1].HeaderText = "SOYAD";
-            dataGridView1.Columns[3].HeaderText = "TC";
-            dataGridView1.Columns[4].HeaderText = "ADRES";
-            dataGridView1.Columns[5].HeaderText = "TELEFON";
-            dataGridView1.Columns[6].HeaderText = "EMAİL";
+            dataGridView1.Columns[2].HeaderText = "TC";
+            dataGridView1.Columns[3].HeaderText = "ADRES";
+            dataGridView1.Columns[4].HeaderText = "TELEFON";
+            dataGridView1.Columns[5].HeaderText = "EMAİL";
 
         }
 
@@ -57,7 +57,7 @@ namespace otel_otomasyonu
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            string cümle = "update MusteriB set Ad=@Ad,Soyad=@Soyad,Adres=@Adres,Telefon=@Telefon,Mail=@Mail, where TC=@TC";
+            string cümle = "update MusteriB set Ad=@Ad,Soyad=@Soyad,Adres=@Adres,Telefon=@Telefon,Email=@Email where TC=@TC";
             SqlCommand komut2 = new SqlCommand();
             komut2.Parameters.AddWithValue("@Ad", textBoxAd.Text);
             komut2.Parameters.AddWithValue("@Soyad", textBoxSoyad.Text);
@@ -72,7 +72,7 @@ namespace otel_otomasyonu
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string cümle = "select * from MusteriB where tc like'%\"+textBox1.Text+\"%'\";";
+            string cümle = "select * from MusteriB where tc like'%"+textBox1.Text+"%'";
             SqlDataAdapter adtr2 = new SqlDataAdapter();
             dataGridView1.DataSource = otel_otomasyonu.listele(adtr2, cümle);
         }
@@ -80,7 +80,7 @@ namespace otel_otomasyonu
         private void btnSil_Click(object sender, EventArgs e)
         {
             DataGridViewRow satır = dataGridView1.CurrentRow;
-            string cumle = "delete from MusterB where Tc='" + satır.Cells["Tc"].Value.ToString() + "'";
+            string cumle = "delete from MusteriB where Tc='" + satır.Cells["Tc"].Value.ToString() + "'";
             SqlCommand komut2 = new SqlCommand();
             otel_otomasyonu.ekle_sil_güncelle(komut2, cumle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";

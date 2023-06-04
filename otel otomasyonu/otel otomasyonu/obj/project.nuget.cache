@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jO7UPfKhfwwkn8MAwtzyp8M+EQVagLKLWIiG7v6/WbTABN4Pvoloas31Nm8NMbj7+hAjrQ6GUUWMdPevXy2utA==",
+  "dgSpecHash": "VITojXImb198NodpJ9he/Vik61Tun78mNdd7euumVe4MfjU6gGln8Ddlz8xRPrBGfPWJKzwbw937M1fmuP+kIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Source\\Repos\\donem-projesi-nazifetekin-otel-otomasyonu\\otel otomasyonu\\otel otomasyonu\\otel otomasyonu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

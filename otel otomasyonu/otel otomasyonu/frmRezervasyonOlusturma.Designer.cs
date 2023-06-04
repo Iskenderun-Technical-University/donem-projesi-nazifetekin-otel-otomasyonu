@@ -49,6 +49,7 @@
             textBoxGun = new TextBox();
             label15 = new Label();
             btnHesapla = new Button();
+            ımageList1 = new ImageList(components);
             btnTemizle = new Button();
             btnGuncelle = new Button();
             btnEkle = new Button();
@@ -71,7 +72,6 @@
             label11 = new Label();
             label12 = new Label();
             dataGridView1 = new DataGridView();
-            ımageList1 = new ImageList(components);
             groupBox1.SuspendLayout();
             groupBoxOdaBilgi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -289,6 +289,18 @@
             btnHesapla.TextAlign = ContentAlignment.MiddleRight;
             btnHesapla.UseVisualStyleBackColor = true;
             btnHesapla.Click += btnHesapla_Click;
+            // 
+            // ımageList1
+            // 
+            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
+            ımageList1.Images.SetKeyName(1, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
+            ımageList1.Images.SetKeyName(2, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
+            ımageList1.Images.SetKeyName(3, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
+            ımageList1.Images.SetKeyName(4, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
+            ımageList1.Images.SetKeyName(5, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
             // 
             // btnTemizle
             // 
@@ -514,18 +526,6 @@
             dataGridView1.TabIndex = 2;
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
-            // 
-            // ımageList1
-            // 
-            ımageList1.ColorDepth = ColorDepth.Depth32Bit;
-            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
-            ımageList1.TransparentColor = Color.Transparent;
-            ımageList1.Images.SetKeyName(0, "kisspng-bedroom-computer-icons-living-room-icons-download-bedroom-png-5ab0bfa766d277.5562319615215328394212.jpg");
-            ımageList1.Images.SetKeyName(1, "kisspng-waste-container-recycling-icon-trash-can-5a6b59b7ccaa89.9639306415169847598383.jpg");
-            ımageList1.Images.SetKeyName(2, "png-clipart-calculator-maths-computer-icons-calculation-calculator-electronics-logo.png");
-            ımageList1.Images.SetKeyName(3, "png-clipart-computer-icons-computer-software-free-software-upgrade-computer-program-others-text-logo.png");
-            ımageList1.Images.SetKeyName(4, "png-clipart-office-supplies-computer-icons-iconfinder-calculation-calculator-icon-text-rectangle.png");
-            ımageList1.Images.SetKeyName(5, "png-transparent-material-icon-plus-icon-add-symbol-material-flat.png");
             // 
             // frmRezervasyonOlusturma
             // 
